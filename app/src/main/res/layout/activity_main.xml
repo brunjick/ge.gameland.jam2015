@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinator_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <!-- Fragment here -->
+    <RelativeLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            fab:menu_animationDelayPerItem="0"
+            fab:menu_colorNormal="@color/fab_ColorNormal"
+            fab:menu_colorPressed="@color/fab_ColorPressed"
+            fab:menu_colorRipple="@color/fab_ColorRipple"
+            fab:menu_fab_size="normal"
+            fab:menu_icon="@drawable/ic_list_24dp">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_notifications"
+                style="@style/MenuButtonsSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_notifications_24dp"
+                fab:fab_label="@string/notifications_enabled"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_reload"
+                style="@style/MenuButtonsSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_replay_24dp"
+                fab:fab_label="@string/reload_page"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab_home_page"
+                style="@style/MenuButtonsSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_24dp"
+                fab:fab_label="@string/home_page"/>
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

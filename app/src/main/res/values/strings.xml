@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GameJam Tbilisi</string>
+
+    <string name="notifications_enabled">შეტყობინებები ჩართულია</string>
+    <string name="notifications_disabled">შეტყობინებები გამორთულია</string>
+    <string name="reload_page">ხელახლა ჩატვირთვა</string>
+    <string name="home_page">საწყისი გვერდი</string>
+    <string name="notification_title">ახალი ამბავი</string>
+    <string name="no_connection">სამწუხაროდ, ინტერნეტის გარეშე აპლიკაცია ვერ მუშაობს</string>
+    <string name="form_error_text">შეცდომა</string>
+    <string name="submit_progress_title">დაელოდეთ</string>
+    <string name="submit_progress_message">მიმდინარეობს თქვენი მოთხოვნის გაგზავნა</string>
+    <string name="submit_failed_message">რეგისტრაცია ვერ მოხერხდა</string>
+    <string name="submit_success_message">თქვენ წარმატებით გაიარეთ რეგისტრაცია</string>
+    <string name="submit_button">რეგისტრაცია</string>
+
+    <string name="form_entry_1">სახელი, გვარი</string>
+    <string name="form_entry_2">საკონტაქტო ტელეფონი</string>
+    <string name="form_entry_3">საკონტაქტო მეილი</string>
+    <string name="form_entry_4">სასცენო სახელი, ნიკი</string>
+    <string name="form_entry_5">პერსონაჟის სახელი</string>
+    <string name="form_entry_6">საიდან არის პერსონაჟი</string>
+    <string name="form_entry_7">რომელი თამაშიდან/ფილმიდან და ა.შ. არის პერსონაჟი</string>
+    <string name="form_entry_8">შეიყვანეთ პერსონაჟის სურათის ბმული</string>
+    <string name="form_entry_9">შეიყვანეთ კოსტუმის შექმნის პროცესის სურათები</string>
+    <string name="form_entry_10">რა არის ნაყიდი და რა ხელნაკეთი</string>
+    <string name="form_entry_11">რა სახის პერფორმანსს აპირებთ</string>
+    <string name="form_entry_12">აირჩიეთ სურათი და მუსიკა</string>
+
+    <string-array name="form_spinner_items">
+        <item>თამაშები</item>
+        <item>ფილმები</item>
+        <item>ანიმაცია</item>
+        <item>სხვა</item>
+    </string-array>
+</resources>
